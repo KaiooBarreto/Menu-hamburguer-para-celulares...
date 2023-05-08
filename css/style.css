@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+
+:root{
+--cor1:#1D2666;
+--cor2:#3243B3;
+--cor3:#3F56E5;
+--cor4:#8895EA;
+--cor5:#3B4166;
+}
+
+@import url('https://fonts.googleapis.com/css2?family= Bruno+Ace+SC & display = swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bruno+Ace+SC&display=swap');
+
+*{
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+text-transform: none;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+background-color: #8895EA;
+
+
+
+}
+
+header{
+background-color: #8895EA;
+text-align: left;
+
+}
+
+h1{
+text-transform: uppercase;
+color: black;
+padding: 25px;
+
+font-family: 'Bruno Ace SC', cursive;
+font-size: 3em;
+
+}
+
+.material-symbols-outlined{
+background-color: #5d70ee;
+width: 100vw;
+text-align: center;
+padding: 10px;
+cursor: pointer;
+display: block;
+border: 1px solid black;
+
+}
+
+.material-symbols-outlined:hover{
+color: white;
+background-color: #1f30a0;
+
+}
+
+menu{
+background-color: #3243B3;
+display: none;
+
+
+}
+
+#id-home{
+border-top:1px solid black;
+
+
+
+}
+
+menu>ul>li{
+
+border-bottom: 1px solid black;
+padding: 15px;
+text-align: center;
+}
+
+menu>ul>li:hover{
+background-color: #596dec;
+transition-duration: 0.5s;
+
+
+}
+menu>ul>li>a:hover{
+
+color: black;
+
+
+}
+
+menu>ul>li>a{
+color: white;
+
+
+
+}
+
+main{
+background-color: white;
+width: 80vw;
+margin: auto;
+padding: 25px;
+margin-top: 30px;
+border-radius: 10px;
+
+}
+
+
+main>h2{
+text-align: center;
+font-size: 2em;
+margin-bottom: 30px;
+text-transform: uppercase;
+font-family: 'Bruno Ace SC', cursive;
+
+}
+
+main > p{
+
+text-indent: 25px;
+font-family: 'Amatic SC', cursive;
+
+}
