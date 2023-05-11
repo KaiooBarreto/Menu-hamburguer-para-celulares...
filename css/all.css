@@ -58,7 +58,7 @@ width: 100vw;
 text-align: center;
 padding: 10px;
 cursor: pointer;
-display: block;
+display: none;
 border: 1px solid black;
 
 }
@@ -71,41 +71,36 @@ background-color: #1f30a0;
 
 menu{
 background-color: #3243B3;
-display: none;
-
-
-}
-
-#id-home{
-border-top:1px solid black;
-
-
+display: block;
 
 }
+
+
 
 menu>ul>li{
+background-color: #b6cbff;
+padding: 10px;
+display: inline-block;
+border-radius: 5px;
 
-border-bottom: 1px solid black;
-padding: 15px;
-text-align: center;
 }
 
 menu>ul>li:hover{
-background-color: #596dec;
+background-color: #3a51e6;
 transition-duration: 0.5s;
 
 
 }
 menu>ul>li>a:hover{
 
-color: black;
+color: white;
 
 
 }
 
 menu>ul>li>a{
-color: white;
-
+color: rgb(0, 0, 0);
+text-transform: uppercase;
 
 
 }
